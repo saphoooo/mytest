@@ -17312,9 +17312,8 @@ return A.L($async$a6A,r)},
 a6D:function a6D(){},
 t8:function t8(a,b){this.c=a
 this.a=b},
-Ut:function Ut(a,b,c){this.a=a
-this.b=b
-this.c=c},
+Ut:function Ut(a,b){this.a=a
+this.b=b},
 a6m(){var s=0,r=A.M(t.kR),q,p
 var $async$a6m=A.N(function(a,b){if(a===1)return A.J(b,r)
 while(true)switch(s){case 0:$.afj()
@@ -56280,16 +56279,16 @@ return A.K(null,r)}})
 return A.L($async$$0,r)},
 $S:14}
 A.t8.prototype={
-e3(a,b,c){var s=null,r=A.a7i(s,s,new A.d8(a,t.hl),s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)
-return new A.Ap(1,B.lj,new A.Ez(new A.Ut(this,c,b),s,s,s,r,B.F,s,!1,s,new A.ra(A.al0(s,s,new A.pO("images/"+b,s,s)),s),s),s)},
+e3(a,b){var s=null,r=A.a7i(s,s,new A.d8(a,t.hl),s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)
+return new A.Ap(1,B.lj,new A.Ez(new A.Ut(this,b),s,s,s,r,B.F,s,!1,s,new A.ra(A.al0(s,s,new A.pO("images/"+b+".png",s,s)),s),s),s)},
 S(a){var s=this,r=null,q=t.nA
-return new A.rM(new A.u3(A.al5(new A.E1(new A.zb(B.aJ,B.qE,B.ce,B.l5,r,B.jJ,r,A.a([new A.n9(A.WE(A.a([s.e3(B.EX,"breaking-news.png","breaking-news.mp3"),s.e3(B.ES,"welcome.png","welcome.mp3"),s.e3(B.EN,"congratulations.png","congratulations.wav"),s.e3(B.EV,"dog.png","dog.wav")],q),B.bW,B.ce),r),new A.n9(A.WE(A.a([s.e3(B.EW,"crowd.png","crowd.mp3"),s.e3(B.EQ,"sherlock.png","sherlock.mp3"),s.e3(B.bU,"chucky.png","chucky.mp3"),s.e3(B.ER,"meow.png","meow.wav")],q),B.bW,B.ce),r),new A.n9(A.WE(A.a([s.e3(B.ET,"claps.png","claps.mp3"),s.e3(B.EU,"laugh.png","laugh.mp3"),s.e3(B.l_,"noanswer.png","noanswer.mp3"),s.e3(B.EO,"yeah.png","yeah.wav")],q),B.bW,B.ce),r)],q),r),r),!0),B.k,r),!1,r)}}
+return new A.rM(new A.u3(A.al5(new A.E1(new A.zb(B.aJ,B.qE,B.ce,B.l5,r,B.jJ,r,A.a([new A.n9(A.WE(A.a([s.e3(B.EX,"breaking-news"),s.e3(B.ES,"welcome"),s.e3(B.EN,"congratulations"),s.e3(B.EV,"dog")],q),B.bW,B.ce),r),new A.n9(A.WE(A.a([s.e3(B.EW,"crowd"),s.e3(B.EQ,"sherlock"),s.e3(B.bU,"chucky"),s.e3(B.ER,"meow")],q),B.bW,B.ce),r),new A.n9(A.WE(A.a([s.e3(B.ET,"claps"),s.e3(B.EU,"laugh"),s.e3(B.l_,"noanswer"),s.e3(B.EO,"yeah")],q),B.bW,B.ce),r)],q),r),r),!0),B.k,r),!1,r)}}
 A.Ut.prototype={
-$0(){var s=null,r=A.ajS()
-this.a.c.qw(0,new A.fW("sounds/"+this.b,s,B.uW,r,s,!1,s,s,A.aH(t.iD)))
-r=$.kL
-r=(r==null?$.kL=A.O2():r).a
-if(r!=null)r.Y0("button pressed "+this.c)},
+$0(){var s=null,r=this.b,q=A.ajS()
+this.a.c.qw(0,new A.fW("sounds/"+(r+".mp3"),s,B.uW,q,s,!1,s,s,A.aH(t.iD)))
+q=$.kL
+q=(q==null?$.kL=A.O2():q).a
+if(q!=null)q.Y0("button pressed "+r)},
 $S:0}
 A.BN.prototype={
 h(a){return"MissingPlatformDirectoryException("+this.a+")"},
